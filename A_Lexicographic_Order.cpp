@@ -4,18 +4,12 @@ using namespace std;
 #define nl "\n"
 
 void solve(){
-    ll n;
-    cin >> n;
-    ll b;
-    cin >> b;
-    ll t = 1;
-    ll cnt = 0;
-    while(t <= n){
-        t *= b;
-        cnt++;
-    }
-    cout << cnt << "\n";
+    string a, b;
+    cin >> a >> b;
+    if(a > b) cout << "No" << nl;
+    else cout << "Yes" << nl;
 }
+
 signed main(){
     ios_base::sync_with_stdio(false);
     cin.tie(0);

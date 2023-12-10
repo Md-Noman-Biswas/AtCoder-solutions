@@ -4,18 +4,17 @@ using namespace std;
 #define nl "\n"
 
 void solve(){
-    ll n;
-    cin >> n;
-    ll b;
-    cin >> b;
-    ll t = 1;
-    ll cnt = 0;
-    while(t <= n){
-        t *= b;
-        cnt++;
+    ll n, l, r;
+    cin >> n >> l >> r;
+    vector<ll> arr(n);
+    for(int i=0; i<n; i++){
+        cin >> arr[i];
     }
-    cout << cnt << "\n";
+    for(int i=l; i<=r; i++){
+        
+    }
 }
+
 signed main(){
     ios_base::sync_with_stdio(false);
     cin.tie(0);
